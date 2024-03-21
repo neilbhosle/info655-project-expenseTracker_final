@@ -1,4 +1,3 @@
-// src/components/AddTransactionForm.js
 
 import React, { useState } from 'react'; 
 import { useBudget } from '../BudgetContext'; 

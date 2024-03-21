@@ -1,9 +1,6 @@
-// src/components/TransactionSearch.js
-// src/components/TransactionSearch.js
+
 import React, { useState } from 'react';
 import { useBudget } from '../BudgetContext';
-// import TransactionsCard from './TransactionsCard';
-// import { TransactionsCard } from './TransactionsCard';
 import TransactionsCard from './TransactionsCard';
 const TransactionSearch = () => {
   const { transactions } = useBudget();
