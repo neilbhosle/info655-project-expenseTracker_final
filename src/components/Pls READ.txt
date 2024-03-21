@@ -1,0 +1,30 @@
+Done so far
+
+Expense Tracker Project Overview:
+
+Developed an Expense Tracker application using React.
+The application allows users to track their expenses, manage budgets, and view transaction history.
+
+Local Storage Usage:
+
+Utilized local storage to persist data such as the initial budget and transaction history.
+Initial budget and transaction data are stored in the local storage of the user's browser.
+Implemented logic to retrieve and update data from local storage to maintain state across browser sessions.
+
+Context API Implementation:
+
+Utilized the Context API for state management across components.
+Created a BudgetContext to provide budget-related data to components throughout the application.
+Implemented a BudgetProvider component to manage state related to initial budget and transactions.
+Used useContext hook to access budget-related data in various components without prop drilling.
+
+Key Features:
+Implemented forms for adding transactions and editing the initial budget.
+Displayed transaction history and budget summary components to provide users with an overview of their financial activities.
+
+
+To do:
+
+functionality to edit previously set transactions 
+Visualization implmentation
+add dedicated css file
