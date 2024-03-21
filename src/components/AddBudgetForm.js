@@ -66,6 +66,7 @@ function AddBudgetForm() {
 
   return (
     <div className="card">
+      <h2>Add Budget</h2>
       <form onSubmit={handleSubmit} className="add-budget">
         <input
           type="number"

@@ -24,6 +24,7 @@ const AddTransactionForm = () => {
 
   return (
     <div className="card">
+      <h2>Add Transaction</h2>
       <form onSubmit={handleSubmit} className="add-budget transactions"> {/* Form for submitting a new transaction */}
         <input
           type="number"
