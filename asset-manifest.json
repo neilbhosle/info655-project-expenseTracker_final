@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/info655-project-expenseTracker_final/static/css/main.a523fd11.css",
-    "main.js": "/info655-project-expenseTracker_final/static/js/main.49e036d9.js",
+    "main.css": "/info655-project-expenseTracker_final/static/css/main.d7cc700c.css",
+    "main.js": "/info655-project-expenseTracker_final/static/js/main.7be8439d.js",
     "index.html": "/info655-project-expenseTracker_final/index.html",
-    "main.a523fd11.css.map": "/info655-project-expenseTracker_final/static/css/main.a523fd11.css.map",
-    "main.49e036d9.js.map": "/info655-project-expenseTracker_final/static/js/main.49e036d9.js.map"
+    "main.d7cc700c.css.map": "/info655-project-expenseTracker_final/static/css/main.d7cc700c.css.map",
+    "main.7be8439d.js.map": "/info655-project-expenseTracker_final/static/js/main.7be8439d.js.map"
   },
   "entrypoints": [
-    "static/css/main.a523fd11.css",
-    "static/js/main.49e036d9.js"
+    "static/css/main.d7cc700c.css",
+    "static/js/main.7be8439d.js"
   ]
 }
