@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+                                        EXPENSE TRACKER PROJECT
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Group Members – 
+1.Dhanashree Deshmukh
+2.Indraneel Uday Bhosale
+3.Geoffrey Antony Muthu
+4.Ayush Bajpai
+5.Rishab Pandey
 
-## Available Scripts
+Project Description:                           
+An expense tracker is a tool or application designed to help individuals or businesses track their spending and manage their finances more effectively. It typically allows users to record and categorize their expenses, set budgets, view spending trends, and generate reports to gain insights into their financial habits. Expense trackers can be used for personal budgeting, managing business expenses, or tracking project costs. They are often available as mobile apps or web-based tools, offering convenience and accessibility for users to track their expenses anytime, anywhere.
 
-In the project directory, you can run:
+You can find the website hosted at: 
 
-### `npm start`
+https://neilbhosle.github.io/info655-project-expenseTracker_final/
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Our expense tracker application allows users to set a budget, add transactions, view transaction history, reset budget details and transaction history, search transactions, view budget summary, and delete transactions.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+How to Run/Deploy: To run the expense tracker application, follow
+these steps:
+ 
+1.Clone the repository from GitHub: [Expense Tracker Repository](https://github.com/neilbhosle/info655-project-expenseTracker_final)
+2.Navigate to the project directory in your terminal.
+3.Install dependencies using npm install.
+4.Run the application using npm start.
+5.Access the application in your browser at http://localhost:3000.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Shortcomings:
+1.Limited Reporting: The application lacks detailed reporting features, such as expense trends over time or category-wise spending analysis.
+2.User Interface: The user interface could be more intuitive and visually appealing, potentially impacting user experience.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Areas for Improvement:
+1.Enhanced Reporting: Implement more advanced reporting features to provide users with deeper insights into their spending habits.
+2.User Interface Redesign: Improve the user interface to make it more user-friendly and visually appealing.
+3.Data Persistence: Add functionality to store budget details and transaction history in a database for long-term data management.
+Signup/Login functionality – Will add a layer of security.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Novelty and Strengths:
+1.Category-wise Tracking: The ability to categorize transactions adds a level of detail that is not always found in other expense tracker applications.
+2.Budget Setting: The feature to set an initial budget and track remaining budget after transactions is a useful tool for financial planning.
+3.Delete Transaction: The option to delete transactions provides users with flexibility and control over their recorded data.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+Expense Tracker Application Use Cases
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1.Setting a Budget
+User Story: As a user, I want to set a budget for my expenses.
+Scenario: The user clicks on the "Set Budget" button, enters the initial budget amount, and   clicks "Submit".
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2.Adding additional budget: As a user, I want to add additional budget for my expenses.
+Scenario: The user clicks on the "Add Budget" button, enters the budget amount, and   clicks "Submit".
+ 
+3.Reset transaction: As a user, I want to reset budget/transaction history for my expenses.
+Scenario: The user clicks on the "Reset" button, then enters the required option number as per his need. 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4.Adding a Transaction:
+User Story: As a user, I want to record my expenses.
+Scenario: The user clicks on the "Add Transaction" button, enters the transaction details (cost, date, category), and clicks "Add".
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+5.Deleting a Transaction:
+User Story: As a user, I want to delete a recorded transaction.
+Scenario: The user clicks on the "Delete" button next to the transaction they want to delete in the transaction history.
 
-## Learn More
+6.Viewing Transaction History:
+User Story: As a user, I want to see a list of all my recorded transactions.
+Scenario: The user navigates to the transaction history tab to view all recorded transactions.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+7.Searching Transactions:
+User Story: As a user, I want to search for specific transactions.
+Scenario: The user uses the search bar to search for transactions based on category, date, or cost.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+8.Viewing Budget Summary:
+User Story: As a user, I want to see a summary of my budget and remaining balance.
+Scenario: The user navigates to the budget summary tab to view the set budget and remaining balance after transactions.
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+9.Pie Chart Visualization:
+User Story: As a user, I want to visualize my total budget and remaining balance.
+Scenario: The user views the pie chart at the end of the application, showing the total budget and remaining balance calculated from the transaction history.
