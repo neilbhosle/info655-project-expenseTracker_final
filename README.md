@@ -1,11 +1,5 @@
                                         EXPENSE TRACKER PROJECT
 
-Group Members – 
-1.Dhanashree Deshmukh
-2.Indraneel Uday Bhosale
-3.Geoffrey Antony Muthu
-4.Ayush Bajpai
-5.Rishab Pandey
 
 Project Description:                           
 An expense tracker is a tool or application designed to help individuals or businesses track their spending and manage their finances more effectively. It typically allows users to record and categorize their expenses, set budgets, view spending trends, and generate reports to gain insights into their financial habits. Expense trackers can be used for personal budgeting, managing business expenses, or tracking project costs. They are often available as mobile apps or web-based tools, offering convenience and accessibility for users to track their expenses anytime, anywhere.
